@@ -2,7 +2,7 @@
 
 ## Creado por
 
-    Marcos Fernández González
+    Marqinhos
     
 ## Ejecución
 
