@@ -3,9 +3,7 @@
 ## Creado por
 
     Marcos Fernández González
-    Alejandro Rivas Fernández
-    María Femenías Hermida
-
+    
 ## Ejecución
 
 Primero se debe instalar todos los paquetes necesarios.
@@ -33,7 +31,8 @@ quiere emplear **OBS** para grabar la patalla de la ejecución.
 En las pruebas realizadas se tienen un total de 21 robots, dispersados en diferentes posiciones en un entorno de *gazebo*. A continuacion, se mostrará una imagen de éstos.
 
 ![image](./imgs/image.png)
-![video](./video.mkv)
+https://user-images.githubusercontent.com/61009765/208266065-80e7cde9-c022-454f-839e-569e6e14fe2a.mp4
+
 
 *Como se ve cada robot tiene su respectivo nombre asignado (esto es gracias a una plantilla que hemos creado en **OBS**)*
 
