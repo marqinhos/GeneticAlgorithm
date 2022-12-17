@@ -1,0 +1,14 @@
+material small_wall
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture small_wall.jpg
+	scale 1.5 2.0
+      }
+    }
+  }
+}

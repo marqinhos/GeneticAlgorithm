@@ -1,0 +1,4 @@
+obs-websocket-py              0.5.3 
+rospy                         1.15.15
+sensor-msgs                   1.13.1
+gazebo-ros                    2.9.2

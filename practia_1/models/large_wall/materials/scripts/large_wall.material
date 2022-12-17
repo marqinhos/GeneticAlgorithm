@@ -1,0 +1,14 @@
+material large_wall
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture large_wall.jpg
+	scale 1.5 2.0
+      }
+    }
+  }
+}
