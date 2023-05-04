@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<sdf version='1.0'>
+  <model name='default_maze'>
+        <include>
+            <uri>model://large_wall</uri>
+            <name>wall_01</name>
+            <pose>-2.5 -1 0.3 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://medium_wall</uri>
+            <name>wall_02</name>
+            <pose>-2.5 2 0.3 0 0 1.57</pose>
+        </include>        
+        
+        <include>
+            <uri>model://medium_wall</uri>
+            <name>wall_03</name>
+            <pose>-1.82 3.88 0.3 0 0 0.9</pose>
+        </include>
+        
+        
+        <include>
+            <uri>model://large_wall</uri>
+            <name>wall_04</name>
+            <pose>0 0 0.3 0 0 1.57</pose>
+        </include>
+        
+        
+        <include>
+            <uri>model://small_wall</uri>
+            <name>wall_05</name>
+            <pose>-0.6 2.3 0.3 0 0 2.8</pose>
+        </include>
+        
+        <include>
+            <uri>model://small_wall</uri>
+            <name>wall_06</name>
+            <pose>0.6 -2.3 0.3 0 0 2.8</pose>
+        </include>
+        
+        
+        <include>
+            <uri>model://large_wall</uri>
+            <name>wall_07</name>
+            <pose>-0.5 -3.83 0.3 0 0 2.8</pose>
+        </include>
+        
+        <include>
+            <uri>model://large_wall</uri>
+            <name>wall_08</name>
+            <pose>2.5 -2.325 0.3 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://large_wall</uri>
+            <name>wall_09</name>
+            <pose>0.15 3.82 0.3 0 0 2.47</pose>
+        </include>
+        
+        <include>
+            <uri>model://small_wall</uri>
+            <name>wall_10</name>
+            <pose>2.125 0.16 0.3 0 0 2.3</pose>
+        </include>
+        
+        <include>
+            <uri>model://medium_wall</uri>
+            <name>wall_11</name>
+            <pose>1.625 1.44 0.3 0 0 1.45</pose>
+        </include>
+        
+        
+        <include>
+            <uri>model://small_wall</uri>
+            <name>wall_12</name>
+            <pose>1.94 -4.5 0.3 0 0 0</pose>
+        </include>
+    <static>1</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

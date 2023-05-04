@@ -1,0 +1,286 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+	<world name="my_world">
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<!-- A ground plane -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+        
+		<!-- Robots -->
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot1</name>
+		    <pose>1 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot2</name>
+		    <pose>0 18 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot3</name>
+		    <pose>-1.5 -15 0 0 0 0</pose>
+		</include>
+		
+		<!-- Abajo del centro primera fila -->
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot4</name>
+		    <pose>7 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot5</name>
+		    <pose>7 14 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot6</name>
+		    <pose>7 -16 0 0 0 0</pose>
+		</include>
+		
+		<!-- Arriba del centro primera fila -->
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot7</name>
+		    <pose>-7.6 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot8</name>
+		    <pose>-7.6 14 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot9</name>
+		    <pose>-7.5 -16 0 0 0 0</pose>
+		</include>
+		
+		<!-- Abajo del centro segunda fila -->
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot10</name>
+		    <pose>13 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot11</name>
+		    <pose>13 14 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot12</name>
+		    <pose>13 -16 0 0 0 0</pose>
+		</include>
+		
+		<!-- Arriba del centro segunda fila -->
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot13</name>
+		    <pose>-13.5 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot14</name>
+		    <pose>-13.5 14 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot15</name>
+		    <pose>-13.5 -16 0 0 0 0</pose>
+		</include>
+		
+		<!-- Abajo del centro tercera fila -->
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot16</name>
+		    <pose>19 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot17</name>
+		    <pose>19 14 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot18</name>
+		    <pose>19 -16 0 0 0 0</pose>
+		</include>
+		
+		<!-- Arriba del centro tercera fila -->
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot19</name>
+		    <pose>-19.5 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot20</name>
+		    <pose>-19.5 14 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://robot</uri>
+		    <name>robot21</name>
+		    <pose>-19.5 -16 0 0 0 0</pose>
+		</include>
+		
+
+		<!-- Mazes -->
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze1</name>
+		    <pose>0 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze2</name>
+		    <pose>0 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze3</name>
+		    <pose>0 -15 0 0 0 0</pose>
+		</include>
+               
+               <!-- Abajo del centro primera fila -->
+               <include>
+		    <uri>model://default_maze</uri>
+		    <name>maze4</name>
+		    <pose>6 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze5</name>
+		    <pose>6 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze6</name>
+		    <pose>6 -15 0 0 0 0</pose>
+		</include>
+		
+		<!-- Arriba del centro primera fila -->
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze7</name>
+		    <pose>-6 0 0 0 0 0</pose>
+		</include>
+		
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze8</name>
+		    <pose>-6 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze9</name>
+		    <pose>-6 -15 0 0 0 0</pose>
+		</include>
+		
+		<!-- Abajo del centro segunda fila -->
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze10</name>
+		    <pose>12 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze11</name>
+		    <pose>12 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze12</name>
+		    <pose>12 -15 0 0 0 0</pose>
+		</include>
+		
+		<!-- Arriba del centro segunda fila -->
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze13</name>
+		    <pose>-12 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze14</name>
+		    <pose>-12 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze15</name>
+		    <pose>-12 -15 0 0 0 0</pose>
+		</include>
+		
+		<!-- Abajo del centro tercera fila -->
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze16</name>
+		    <pose>18 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze17</name>
+		    <pose>18 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze18</name>
+		    <pose>18 -15 0 0 0 0</pose>
+		</include>
+		
+		<!-- Arriba del centro tercera fila -->
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze19</name>
+		    <pose>-18 0 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze20</name>
+		    <pose>-18 15 0 0 0 0</pose>
+		</include>
+		
+		<include>
+		    <uri>model://default_maze</uri>
+		    <name>maze21</name>
+		    <pose>-18 -15 0 0 0 0</pose>
+		</include>
+
+	</world>
+</sdf>
